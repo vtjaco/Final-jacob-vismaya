@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vismaya Jacob">
+    <meta name="description" content="Contact Loft for bookings and questions, a phenomenal resort in the Sans Francisco. Book your stay today!">
+    <title>Loft</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header>
+      <h1> <a href="index.html">Loft</a></h1>
+
+      <div class="nav-container">
+        <nav>
+          <ul>
+            <li><a href="index.html"><u>Home</u></a></li>
+            <li><a href="#"><u>Accommodations</u></a></li>
+            <li><a href="contact.html"><u>Contact</u></a></li>
+          </ul>
+        </nav>
+      </header>
+    <br>
+      <img src="images/swiss-valley.jpg" alt="Hero image of Swiss Valley" width="1280px">
+
+        <main>
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+            <img src="images/swiss-peak.jpg" alt="Swiss Peak" width="400" height="300">
+           <section class="contact-form">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+              <div class="contact-form-section">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" required>
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="contact-form-section">
+                <fieldset>
+                  <legend>Preferred Contact Method *</legend>
+                  <div class="contact-method">
+                    <label>
+                      <input type="radio" name="contact-method" value="email" />
+                      Email
+                    </label>
+                  </div>
+                  <div class="contact-method">
+                    <label>
+                      <input type="radio" name="contact-method" value="phone" />
+                      Phone
+                    </label>
+                  </div>
+                </fieldset>
+                <div class="comments-section">
+                  <label for="comments">Comments *</label>
+                  <textarea id="comments" name="comments" required></textarea>
+                </div>
+                <div class="submit-section">
+                  <input type="submit" value="Submit">
+                </div>
+              </div>
+            </form>
+          </section>   
+        </main>
+    <footer>
+        <p>Copyright ©2023 - Loft</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
+
